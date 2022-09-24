@@ -71,5 +71,12 @@ public class Main {
         double totalGramm = (5 * bananas) + (2 * milk) + (2 * iceCream) + (4 * egg);
         System.out.println("Общий вес продуктов в спорт-завтраке составляет " + totalGramm + " грамм или ");
         System.out.println(totalGramm / 1000 + " кг");
+
+        System.out.println("Задание 7");
+        short weiht = 7000;
+        short day1 = 250;
+        short day2 = 500;
+        System.out.println("Чтобы похудеть на 7 кг боксеру потребуется " + weiht / day1 + " дней, если он будет худеть на 250 грамм в день");
+        System.out.println("и " + weiht / day2 + " дней если будет худеть на 500 грамм ежедневно.");
     }
 }
