@@ -50,5 +50,8 @@ public class Main {
         System.out.println("За 1 сутки машина произвела " + (bootle / timeMinut) * timeDay + " штук бутылок");
         int timeDay3 = timeDay * 3;
         System.out.println("За 3 дня машина произвела " + (bootle / timeMinut) * timeDay3 + " штук бутылок");
+        int timeMonth = timeDay3 *10;
+        System.out.println("За 1 месяц машина произвела " + (bootle / timeMinut) * timeMonth + " штук бутылок");
+        System.out.println("Задание 5");
     }
 }
