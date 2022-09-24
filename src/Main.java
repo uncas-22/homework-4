@@ -39,6 +39,16 @@ public class Main {
         byte teacherCaterina = 30;
         short total = 480;
         System.out.println("На каждого ученика рассчитано " + total / (teacherLuda + teacherAnna + teacherCaterina) + " листов бумаги" );
-
+        System.out.println("Задание 4");
+        byte bootle = 16;
+        byte timeMinut = 2;
+        byte time_Minut = 20;
+        System.out.println("За 20 минут машина произвела " + (bootle / timeMinut) * time_Minut + " штук бутылок");
+        int timeHours = time_Minut * 3;
+        System.out.println("За 1 час машина произвела " + (bootle / timeMinut) * timeHours + " штук бутылок");
+        int timeDay = timeHours * 24;
+        System.out.println("За 1 сутки машина произвела " + (bootle / timeMinut) * timeDay + " штук бутылок");
+        int timeDay3 = timeDay * 3;
+        System.out.println("За 3 дня машина произвела " + (bootle / timeMinut) * timeDay3 + " штук бутылок");
     }
 }
