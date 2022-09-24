@@ -2,13 +2,13 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Урок 4 Переменные. часть 2");
         System.out.println("Задание 1");
-        int westernUnion = 2147483640;
+        int westernUnion = 2_147_483_640;
         System.out.println("Значение переменной westernUnion - с типом int (целочисленные) равно " + westernUnion);
         byte sigalOne = -120;
         System.out.println("Значение переменной sigalOne - с типом byte (целочисленные) равно " + sigalOne);
-        short xeniumTwoFerrum = 32760;
+        short xeniumTwoFerrum = 32_760;
         System.out.println("Значение переменной xeniumTwoFerrum - с типом short (целочисленные) равно " + xeniumTwoFerrum);
-        long vektorPlan = 9223372036854775805L;
+        long vektorPlan = 9_223_372_036_854_775_805L;
         System.out.println("Значение переменной vektorPlan - с типом long (целочисленные) равно " + vektorPlan);
         float fitnesMan = 12.1234567f;
         System.out.println("Значение переменной fitnesMan - с типом float (с плавающей запятой) равно " + fitnesMan);
@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Задание 2");
         float f = 27.12f;
         System.out.println("Значение " + f + " - переменная float");
-        long l = 987678965549L;
+        long l = 987_678_965_549L;
         System.out.println("Значение " + l + " - переменная long");
         byte b = 2;
         System.out.println("Значение " + b + " - переменная byte");
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("Значение " + house2 + " - переменная short" );
         short house3 = -159;
         System.out.println("Значение " + house3 + " - переменная short" );
-        short house4 = 27897;
+        short house4 = 27_897;
         System.out.println("Значение " + house4 + " - переменная short" );
         byte bigFut = 67;
         System.out.println("Значение " + bigFut + " - переменная byte" );
@@ -78,5 +78,26 @@ public class Main {
         short day2 = 500;
         System.out.println("Чтобы похудеть на 7 кг боксеру потребуется " + weiht / day1 + " дней, если он будет худеть на 250 грамм в день");
         System.out.println("и " + weiht / day2 + " дней если будет худеть на 500 грамм ежедневно.");
+
+        System.out.println("Задание 8");
+        int mari = 67_760;
+        int den = 83_690;
+        int kris = 76_230;
+        // годовой доход до повышения;
+        int mariYear1 = mari * 12;
+        int denYear1 = den * 12;
+        int krisYear1 = kris * 12;
+        //зарплата после повышения на 10 %ж
+        float mari10 = mari * 1.1f;
+        float den10 = den * 1.1f;
+        float kris10 = kris * 1.1f;
+        // годовой доход после повышения
+        double mariYear2 = mari10 * 12;
+        double denYear2 = den10 * 12;
+        double krisYear2 = kris10 * 12;
+
+        System.out.println("Маша теперь получает " + mari10 + " рублей." + " Годовой доход вырос на " + (mariYear2 - mariYear1) + " рублей");
+        System.out.println("Денис теперь получает " + den10 + " рублей." + " Годовой доход вырос на " + (denYear2 - denYear1) + " рублей");
+        System.out.println("Кристина теперь получает " + kris10 + " рублей." + " Годовой доход вырос на " + (krisYear2 - krisYear1) + " рублей");
     }
 }
