@@ -59,5 +59,6 @@ public class Main {
         int totalClass = totalWhiteBrown / (classWhite + classBrown);
         System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * classWhite + " банок белой краски и " + totalClass * classBrown + " банок коричневой краски");
         System.out.println("Задание 6");
+
     }
 }
