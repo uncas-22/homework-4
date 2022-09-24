@@ -53,5 +53,11 @@ public class Main {
         int timeMonth = timeDay3 *10;
         System.out.println("За 1 месяц машина произвела " + (bootle / timeMinut) * timeMonth + " штук бутылок");
         System.out.println("Задание 5");
+        byte totalWhiteBrown = 120;
+        byte classWhite = 2;
+        byte classBrown =4;
+        int totalClass = totalWhiteBrown / (classWhite + classBrown);
+        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * classWhite + " банок белой краски и " + totalClass * classBrown + " банок коричневой краски");
+        System.out.println("Задание 6");
     }
 }
