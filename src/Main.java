@@ -47,21 +47,21 @@ public class Main {
         byte timeMinut = 2;
         byte time_Minut = 20;
         System.out.println("За 20 минут машина произвела " + (bootle / timeMinut) * time_Minut + " штук бутылок");
-        int timeHours = time_Minut * 3;
+        int timeHours = 3 * time_Minut;
         System.out.println("За 1 час машина произвела " + (bootle / timeMinut) * timeHours + " штук бутылок");
-        int timeDay = timeHours * 24;
+        int timeDay = 24* timeHours;
         System.out.println("За 1 сутки машина произвела " + (bootle / timeMinut) * timeDay + " штук бутылок");
-        int timeDay3 = timeDay * 3;
+        int timeDay3 = 3 * timeDay;
         System.out.println("За 3 дня машина произвела " + (bootle / timeMinut) * timeDay3 + " штук бутылок");
-        int timeMonth = timeDay3 *10;
+        int timeMonth = 10 * timeDay3;
         System.out.println("За 1 месяц машина произвела " + (bootle / timeMinut) * timeMonth + " штук бутылок");
 
         System.out.println("Задание 5");
         byte totalWhiteBrown = 120;
         byte classWhite = 2;
-        byte classBrown =4;
-        int totalClass = totalWhiteBrown / (classWhite + classBrown);
-        System.out.println("В школе, где " + totalClass + " классов, нужно " + totalClass * classWhite + " банок белой краски и " + totalClass * classBrown + " банок коричневой краски");
+        byte classBrown = 4;
+        int totalClasses = totalWhiteBrown / (classWhite + classBrown);
+        System.out.println("В школе, где " + totalClasses + " классов, нужно " + totalClasses * classWhite + " банок белой краски и " + totalClasses * classBrown + " банок коричневой краски");
 
         System.out.println("Задание 6");
         byte bananas = 80;
@@ -84,10 +84,10 @@ public class Main {
         int den = 83_690;
         int kris = 76_230;
         // годовой доход до повышения;
-        int mariYear1 = mari * 12;
-        int denYear1 = den * 12;
-        int krisYear1 = kris * 12;
-        //зарплата после повышения на 10 %ж
+        int mariYear1 = 12 * mari;
+        int denYear1 = 12 * den;
+        int krisYear1 = 12 * kris;
+        //зарплата после повышения на 10 %
         float mari10 = mari * 1.1f;
         float den10 = den * 1.1f;
         float kris10 = kris * 1.1f;
